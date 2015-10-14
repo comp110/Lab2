@@ -58,7 +58,7 @@ public class Lab2 {
     int sum = 0;
     double average = 0.0;
     
-    // Here are some more boilerplate outputs you can uncomment and reuse.
+    // Here are some more boilerplate outputs you can use.
     printLine("The sum is " + sum);
     printLine("The average is " + average);
     printLine("Unrecognized Option");
