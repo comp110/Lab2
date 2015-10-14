@@ -31,34 +31,33 @@ public class Lab2 {
     // The `keyboard` Scanner is provided for you
     Scanner keyboard = new Scanner(System.in);
     
-    // Step 3.
+    // Step 1.
     printLine("Welcome!");
     
-    // Step 4.
-    printLine("Please enter the *size* of the array you want to create.");
+    // Step 2.
+    printLine("Please enter multiplesOfThree's desired size:");
     
-    // TODO: Step 5 - Construct multiplesOfThree array with its 
+    // TODO: Step 3 - Construct multiplesOfThree array with its 
     //                size decided by user input.
     int[] multiplesOfThree;
     
-    // TODO: Step 6 - Fill array with user inputs
-    // You can reuse the prompts in your Step 6 loop below, just uncomment
-    // and use where you need it.
-    // printLine("Please enter an integer that is a multiple of 3.");
-    // printLine("That is not a multiple of 3. Try again!");
+    // TODO: Step 4 - Fill array with user inputs
+    // The print statements below can be used to avoid retyping.
+    printLine("Please enter an integer that is a multiple of 3.");
+    printLine("That is not a multiple of 3. Try again!");
     
-    // Step 7
+    // Step 5
     printLine("What operation would you like to perform on the array?");
     printLine("1: Compute the sum");
     printLine("2: Compute the average");
     printLine("3: Compute both");
     
-    // TODO: Step 8 - Depending on the user's selection do the needed
+    // TODO: Step 6 - Depending on the user's selection do the needed
     //       calculations and output it as per the instructions.
     int sum = 0;
     double average = 0.0;
     
-    // Here are some more boilerplate outputs you can use.
+    // Here are the outputs you might use.
     printLine("The sum is " + sum);
     printLine("The average is " + average);
     printLine("Unrecognized Option");
